@@ -11,7 +11,9 @@ namespace SnakeAndLadderGame
         int StartPosition = 0;
         public const int NOPLAY = 0;
         public const int LADDER = 1;
-        public const int SNAKE = 2;    
+        public const int SNAKE = 2;
+        int Dice;
+        int option;
         
         Random Dicenum = new Random();
         public void gamestart()
